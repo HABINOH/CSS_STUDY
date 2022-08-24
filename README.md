@@ -12,5 +12,6 @@ Notion으로 정리한 것을 올림.
 1. CSS란?
 2. CSS 구문
 3. CSS 선택기
+4. CSS 추가 방법
 
 </pre>
