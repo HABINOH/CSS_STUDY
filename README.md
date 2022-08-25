@@ -13,5 +13,6 @@ Notion으로 정리한 것을 올림.
 2. CSS 구문
 3. CSS 선택기
 4. CSS 추가 방법
+5. CSS 주석
 
 </pre>
