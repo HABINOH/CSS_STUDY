@@ -18,5 +18,6 @@ Notion으로 정리한 것을 올림.
 7. CSS 배경
 8. CSS 테두리
 9. CSS 여백
+10. CSS outline
 
 </pre>
