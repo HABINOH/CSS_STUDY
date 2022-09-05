@@ -1,6 +1,10 @@
 # CSS_STUDY
 
 <pre>
+위 소스 파일은 실습을 진행한 파일들이다.
+
+1. 
+
 
 </pre>
 
@@ -20,6 +24,6 @@ Notion으로 정리한 것을 올림.
 9. CSS 여백
 10. CSS outline
 11. CSS Text
-12. CSS 
+12. CSS 글꼴
 
 </pre>
