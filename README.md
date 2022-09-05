@@ -20,5 +20,6 @@ Notion으로 정리한 것을 올림.
 9. CSS 여백
 10. CSS outline
 11. CSS Text
+12. CSS 
 
 </pre>
