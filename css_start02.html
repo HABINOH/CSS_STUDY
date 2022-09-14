@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기본 문법</title>
+    <style>
+/*
+css lint(css 검사)
+*/
+        h1 {
+            background-color:silver;
+            color:red;
+            font-weight:bold;
+            font-size: 30px;
+        }
+        p {
+            font-size:18px;
+            background-color:#000;
+            color:#fff;
+        }
+        .licolor {
+            color:blue;
+        }
+        .line {
+            text-decoration:underline;
+        }
+        .weight {
+            font-weight: bold;
+        }
+        div h2 {
+            color:cornflowerblue;
+        }
+        nav > h2 {
+            color:tomato;
+        }
+        div h1 + h2 + h2 {
+            color:blueviolet;
+        }
+        div nav ~ h2 {
+            color:brown;
+        }
+        #title, nav ~ h2 {
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="title">선택자</h1>
+        <h2>태그, 전체(*), class(.), id(#), 자손 또는 하위</h2>
+        <h2>Copy Select</h2>
+        <nav>
+            <h2>자식(>), 인접형제(+,~), 그룹화(,)</h2>
+        </nav>
+        <h2>TITLE</h2>
+        <h2>TITLE</h2>
+    </div>
+    <ul>
+        <li class="licolor">list item</li>
+        <li class="licolor line">list item</li>
+        <li class="licolor line weight">list item</li>
+    </ul>
+    <p>
+        <span>UPCOMING REFERENDUMS</span>
+        The Kansas vote was the first of several statewide referendums on abortion rights this year, with similar questions appearing on ballots in Kentucky, California and possibly Michigan in November.
+
+        In Kansas, opponents of the amendment said they emphasized themes of bodily autonomy and individual freedom to win over voters with complex views on reproductive rights. Advertisements leaned into many Kansans' reluctance to allow the government to intervene in personal healthcare decisions, encouraging voters to "say no to more government control."
+
+        An abortion rights coalition in Kentucky is employing the same messaging to fight a similar proposed constitutional amendment.
+
+        Heather Ayer, campaign coordinator for the American Civil Liberties Union of Kentucky, said focus groups have shown that emphasizing personal liberty in medical decisions is popular.
+
+        "Freedom is a big part of what people are thinking when they're going to vote on a constitutional amendment," Ayer said.
+    </p>
+
+</body>
+</html>
