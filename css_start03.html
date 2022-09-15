@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기본 문법</title>
+    <style>
+        /*공백X 자신 중에
+          공백O 자식 중에*/
+        [target] {
+            text-decoration:none;
+        }
+        [target="_blank"] {
+            background-color:blue;
+            color:white;
+        }
+        [target="_self"] {
+            background-color:red;
+            color:white;
+        }
+        /*class명이 link로 시작하는 것*/
+        li[class^="link"] {
+            list-style:none;
+        }
+
+        :link {/*그냥 a태그를 적는거와 동일*/
+            text-decoration:none;
+            color:navy;
+            outline:none; /*포커스 X*/
+        }
+        a:hover { /*마우스 오버 시*/
+            color:red;
+            text-decoration:underline;
+        }
+        a:active {/*누르는 순간*/
+            background-color:red;
+            color:white;
+        }
+        a:visited {/*방문한 사이트*/
+            color:silver;
+        }
+        a:focus {/*tab*/
+            background-color:blue;
+            color:#fff;
+        }
+        h1:hover {
+            text-decoration:underline;
+        }
+        input:focus {
+            background-color:red;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">css 기본 문법</h1>
+    <h2>속성 선택자([])</h2>
+    <ul>
+        <li class="google"><a href="#" target="_blank">google</a></li>
+        <li class="link1"><a href="#" target="_blank">daum</a></li>
+        <li class="link2"><a href="#" target="_self">naver</a></li>
+    </ul>
+    <a href="mailto:dhdudgns80@naver.com">dhdudgns80@naver.com</a>
+
+    <h2>가상 선택자(: 띄워쓰기 X)</h2>
+    <ul>
+        <li ><a href="#" target="_blank">google</a></li>
+        <li ><a href="#" target="_blank">daum</a></li>
+        <li ><a href="#" target="_self">naver</a></li>
+    </ul>
+    <a href="mailto:dhdudgns80@naver.com">dhdudgns80@naver.com</a>
+    
+    <input type="text" placeholder="이름 입력">
+</body>
+</html>
