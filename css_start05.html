@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기본 문법</title>
+    <style>
+        /*동급의 선택자 아래에 작성한 것이 우선순위가 높음*/
+        /*0 : *, 
+          1 : tag, 
+          10 : class, 
+          100 : id, 
+          1000 : inline style 
+          10000 : !important*/
+        .area p{
+            color:blue;
+        }
+        #text{
+            color:brown;
+        }
+        p{
+            color:red;
+        }
+        #text2{
+            color:red !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="area">
+        <p id="text">
+            인기를 끌고 있는 드라마 <이상한 변호사 우영우>의 ‘소덕동 팽나무’ 이야기 이후 ‘오래된 숲들’이 관심을 끌고 있다. 고향 마을 입구 늠름한 팽나무와 느티나무는 한여름 당당하다. 세월을 이기고 서 있는 수백 년 된 나무들은 많은 이야기를 품고 있다. 찬찬히 걸으며 귀를 기울이면 나무들의 이야기를 들을 수 있다. 문화재청은 ‘소덕동 팽나무’로 알려진 경남 창원시 의창구 대산면 북부리의 ‘팽나무’를 천연기념물로 지정할 지에 대해 조사를 벌이고 있다.
+        </p>
+        <p id="text2" style="color:blue">
+            인기를 끌고 있는 드라마 <이상한 변호사 우영우>의 ‘소덕동 팽나무’ 이야기 이후 ‘오래된 숲들’이 관심을 끌고 있다. 고향 마을 입구 늠름한 팽나무와 느티나무는 한여름 당당하다. 세월을 이기고 서 있는 수백 년 된 나무들은 많은 이야기를 품고 있다. 찬찬히 걸으며 귀를 기울이면 나무들의 이야기를 들을 수 있다. 문화재청은 ‘소덕동 팽나무’로 알려진 경남 창원시 의창구 대산면 북부리의 ‘팽나무’를 천연기념물로 지정할 지에 대해 조사를 벌이고 있다.
+        </p>
+    </div>
+</body>
+</html>
