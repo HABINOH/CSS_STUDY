@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기본 문법 (text)</title>
+    <style>
+        /*vertical align (인라인 요소 간격 feat.image)
+        baseline, middle, bottom, text-bottom*/
+h1.uppercase{text-transform:uppercase;}
+h1.lowercase{text-transform:lowercase;}
+h1.capitalize{text-transform:capitalize;}
+h1.smallcaps{text-transform:small-caps;}
+        h1{
+            border: 1px solid;
+        }
+        img{
+            vertical-align:top;/*이미지 밑 공간 없애기*/
+        }
+        .jus{
+            text-align:justify;/*word-break와 세트*/
+            word-break:break-all;/*단어를 자른다*/
+        }
+    </style>
+</head>
+<body>
+    <div class="area">
+        <h1 class="uppercase">My name is ???</h1>
+        <h1 class="lowercase">My name is ???</h1>
+        <h1 class="capitalize">My name is ???</h1>
+        <h1 class="smallcaps">My name is ???</h1>
+        <p class="jus">
+            Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi 
+            Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi 
+            Hi Hi Hi Hi Hi Hi Hi Hi Hi 
+        </p>
+        <p>
+            Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi
+            Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi 
+            Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi
+        </p>
+    </div>
+    <h1>
+        <img src="../Robot.jfif" alt="">
+    </h1>
+</body>
+</html>
