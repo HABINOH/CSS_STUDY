@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기본 문법(text style)</title>
+    <style type="text/css">
+        /*text 스타일(pxtoem.com)
+        px, %, em, rem, vw, */
+        /*글의 간격
+        letter-spacing, word-spacing, line-height*/
+        /*들여 쓰기(내어쓰기)
+        indent*/
+        body{
+            font-size:12px;
+        }
+        h1 {
+            font-size:1em;
+            font-weight:700;
+            text-decoration:overline;/*line-through, overline, underline*/
+            letter-spacing:0.12em;/*글자 사이 간격*/
+        }
+        em, address{
+            font-style:normal;
+        }
+        del{
+            font-style:oblique; /*oblique = italic*/
+        }
+        .left{
+            text-align:left;
+            word-spacing:2em;/*단어 사이 간격*/
+        }
+        .center{
+            text-align:center;
+        }
+        .right{
+            text-align:right;
+            line-height:40px;/*높이*/
+        }
+        .etc{
+            text-align:right;
+            /*text-align:justify 균등분할*/
+        }
+        h2{
+            width:300px;
+            border:2px solid red;
+            height:60px;
+            text-align:center;
+            line-height:60px;
+        }
+        h3 a{
+            background-image:url(../favicon.ico);
+            width:90px;
+            height:30px;
+            display:block; /*사이즈 정의를 위해 필수*/
+            text-indent:-9999em;/*글씨 없애기*/
+            /*image replacement IR*/
+        }
+    </style>
+</head>
+<body>
+    <div class="font1">
+    <h1>글자 확인</h1>
+    <del>watch</del>
+    <h2>line height</h2>
+
+    <h3><a href="#">Logo</a></h3>
+
+    <p class="left">
+        <em>asd</em>asd asdasd asdasdasdasd asdasdasdasdasdasdasdasdasdasd
+        asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+    </p>
+    <p class="center">
+        <em>asd</em>asdasdasd asdasdasd asdasdasdasd asdasdasdasdasdasdasd
+        asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+    </p>
+    <p class="right">
+        <em>asd</em>asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+        asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+    </p>
+    <address>
+        &copy; all right reserved.
+        contact us.
+    </address>
+    <p class="etc">
+        <span>line test</span>
+        <span>line test</span>
+        <span>line test</span>
+    </p>
+    </div>
+</body>
+</html>
