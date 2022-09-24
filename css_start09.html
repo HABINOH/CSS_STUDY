@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기본 문법 (text)</title>
+    <style>
+        .area{
+            width:300px;
+            height:40px;
+            background-color:silver;
+            margin-bottom:120px;
+        }
+        .nowrap{
+            white-space:nowrap;/*쭉 옆으로 감*/
+        }
+        .pre{
+            white-space:pre;
+        }
+        .pre-wrap{
+            white-space:pre-wrap;
+            margin-bottom:180px;
+        }
+        .pre-line{
+            white-space:pre-line;
+        }
+    </style>
+</head>
+<body>
+    <p class="area nowrap">
+        Haaland was substituted 12 minutes before the end and having missed a chance to secure a debut hat-trick, he said it was a "bit sh*t" that he wasn't able to achieve the feat having done so on his Dortmund debut.
+    </p>
+    <p class="area pre">
+        Haaland was substituted 12 minutes before the end and having missed a chance to secure a debut hat-trick, 
+        he said it was a "bit sh*t" that he wasn't able to achieve the feat having done so on his Dortmund debut.
+    </p>
+    <p class="area pre-wrap">
+        Haaland was substituted 12 minutes before the end and having missed a chance to secure a debut hat-trick, 
+        he said it was a "bit sh*t" that he wasn't able to achieve the feat having done so on his Dortmund debut.
+    </p>
+    <p class="area pre-line">
+        Haaland was substituted 12 minutes before the end and having missed a chance to secure a debut hat-trick, 
+        he said it was a "bit sh*t" that he wasn't able to achieve the feat having done so on his Dortmund debut.
+    </p>
+</body>
+</html>
