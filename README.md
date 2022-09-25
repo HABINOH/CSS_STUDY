@@ -11,6 +11,8 @@
 6. 외부 폰트
 7. 글꼴 위치
 8. text
+9. text2
+10. display, overflow
 
 </pre>
 
