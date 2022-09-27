@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기본 문법 (sprites_base)</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        li a{
+            background-image:url(../tab_sprites.gif);
+            width:108px;
+            height:32px;
+            display:block;
+            text-indent:-9999em;
+        }
+        li:nth-child(2) a{
+            background-position:-107px 0;
+        }
+        li:nth-child(3) a{
+            background-position:-214px 0;
+        }
+        li:nth-child(1) a:hover{
+            background-position:0 -32px;
+        }
+        li:nth-child(2) a:hover{
+            background-position:-107px -32px;
+        }
+        li:nth-child(3) a:hover{
+            background-position:-214px -32px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">스타</a></li>
+        <li><a href="#">프로그램</a></li>
+        <li><a href="#">이슈</a></li>
+    </ul>
+</body>
+</html>
