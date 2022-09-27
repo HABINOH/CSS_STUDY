@@ -14,6 +14,7 @@
 9. text2
 10. display, overflow
 11. background
+12. hover
 
 </pre>
 
